@@ -44,10 +44,6 @@
     <!--Back to kill timeout -->
     <string name="long_press_kill_delay">App kill delay</string>
 
-    <!--Status bar data and wifi activity -->
-    <string name="show_activity_indicators_title">Activity indicators</string>
-    <string name="show_activity_indicators_summary">Show indicators in signal bars</string>
-
     <!--Status bar carrier -->
     <string name="show_carrier_title">Carrier label</string>
     <string name="show_carrier_disabled">Disabled</string>
@@ -433,7 +429,25 @@
     <string name="longpress_lock_icon_to_sleep_title">Long press lock icon to sleep</string>
     <string name="longpress_lock_icon_to_sleep_summary">This option will not work if both smart lock and accessibility touch exploration are enabled</string>
 
+    <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+
     <!-- Vibrate options -->
     <string name="vibrate_when_ringing_title_eos">For calls</string>
     <string name="vibrate_on_touch_title_eos">On touch</string>
+
+    <!-- Disable torch when screen goes off -->
+    <string name="disable_torch_screen_off_title">Disable torch on screen off</string>
+    <string name="disable_torch_screen_off_delay_title">Delay</string>
+    <string name="torch_screen_off_one_second">1 second</string>
+    <string name="torch_screen_off_ten_second">10 seconds (default)</string>
+    <string name="torch_screen_off_thirty_second">30 seconds</string>
+    <string name="torch_screen_off_one_minute">1 minute</string>
+    <string name="torch_screen_off_five_minutes">5 minutes</string>
+    <string name="torch_screen_off_ten_minutes">10 minutes</string>
+
+    <!-- Task Manager -->
+    <string name="enable_task_manager_title">Task Manager</string>
+    <string name="enable_task_manager_summary">Show task manager button in the expanded statusbar area</string>
 </resources>
